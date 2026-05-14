@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "120643431850",
+    "project_id": "city-link-a8efc",
+    "storage_bucket": "city-link-a8efc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120643431850:android:79849128828e4d440f8fd3",
+        "android_client_info": {
+          "package_name": "com.example.test_ci_cd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgSmYIlIYfzmUVv7_bzUEo-lr5IcrkxnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
