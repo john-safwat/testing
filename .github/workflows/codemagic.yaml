@@ -4,11 +4,13 @@ on:
 jobs:
   build-and-distribute:
     runs-on: ubuntu-latest
+    env:
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
       - name: Trigger Codemagic build
-        uses: codemagic-ci-cd/trigger-codemagic-workflow-action@v3.0.0
+        uses: codemagic-ci-cd/trigger-codemagic-workflow-action@v1.1.0
         with:
           app-id: ${{ secrets.CODEMAGIC_APP_ID }}
           workflow-id: ${{ secrets.CODEMAGIC_WORKFLOW_ID }}
